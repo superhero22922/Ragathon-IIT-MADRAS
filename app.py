@@ -24,11 +24,6 @@ matplotlib.rc_file("./.matplotlib/.matplotlibrc");
 st.set_page_config(page_title="Excel Chat", layout="wide")
 st.header("Please convert pdf to excel")
 
-st.markdown("""List of todos
- - [x] Add memory
- - [x] Support non-latin text in chart
- - [ ] Sub questions support
-""")
 
 
 class AgentWrapper:
